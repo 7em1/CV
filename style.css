@@ -1,0 +1,34 @@
+.main {
+  background-color: aquamarine;
+  height: 500vw;
+  width: 195vh;
+}
+
+.top {
+  background-color: azure;
+  height: 7%;
+  width: 50%;
+  border: solid black 3px;
+}
+
+.info {
+  margin: -32% 0 0 36%;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+}
+
+.picture1 {
+  width: 35%;
+  height: 50%;
+}
+.description {
+  font-family: "Dosis", sans-serif;
+  margin: 1% 0 0 36%;
+}
+.coninfo{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-content: flex-start;
+
+}
