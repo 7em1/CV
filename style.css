@@ -1,13 +1,13 @@
-.main {
+.wrapper {
   background-color: aquamarine;
-  height: 500vw;
+  height: 100%;
   width: 100%;
   position: relative;
 }
 
 .top {
   background-color: azure;
-  height: 5%;
+  height: 50vh;
   width: 50%;
   border: solid black 3px;
 }
@@ -36,20 +36,37 @@
   right: 0;
 }
 
-.myself
-{
-text-align: center;
-font-size: 35px;
-font-family: "Dosis", sans-serif;
-margin-top: 2%;
+.myself {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Dosis", sans-serif;
+  margin-top: 2%;
 }
 
 .aboutme {
   font-family: "Dosis", sans-serif;
   font-size: 25px;
 }
-.skills{
-  margin: 2% 0 0 0 ;
+
+.skills {
+  margin: 2% 0 0 0;
   font-size: 40px;
   font-family: "Dosis", sans-serif;
+}
+
+.contactinfo {
+  margin: 10% 0 0 0;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: black;
+  height: 10vh;
+}
+
+.github,
+.number,
+.facebook {
+  color: white;
+  font-family: "Dosis", sans-serif;
+
 }
