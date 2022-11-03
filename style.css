@@ -3,6 +3,7 @@
   height: 100%;
   width: 100%;
   position: relative;
+  padding: 10px;
 }
 
 .top {
@@ -33,14 +34,14 @@
   flex-direction: column;
   position: absolute;
   top: 0;
-  right: 0;
+  right: 25px;
 }
 
 .myself {
   text-align: center;
   font-size: 35px;
   font-family: "Dosis", sans-serif;
-  margin-top: 2%;
+  justify-content: center;
 }
 
 .aboutme {
@@ -57,7 +58,7 @@
 .contactinfo {
   margin: 10% 0 0 0;
   display: flex;
-  justify-content: center;
+  align-items: center;
   justify-content: space-around;
   background-color: black;
   height: 10vh;
@@ -69,4 +70,13 @@
   color: white;
   font-family: "Dosis", sans-serif;
 
+}
+.main{
+  padding: 10px;
+}
+li{
+ font-size: 25px;
+}
+span{
+  color: firebrick;
 }
